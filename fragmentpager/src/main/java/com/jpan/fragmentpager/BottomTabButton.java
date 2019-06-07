@@ -25,12 +25,10 @@ public class BottomTabButton extends FrameLayout implements View.OnClickListener
 
     public BottomTabButton(Context context) {
         this(context, null);
-        initView(context);
     }
 
     public BottomTabButton(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
-        initView(context);
     }
 
     public BottomTabButton(Context context, AttributeSet attrs, int defStyle) {
